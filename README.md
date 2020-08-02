@@ -82,8 +82,8 @@ Failures
 
 
 ### Face2Art [FFHQ, MetFaces]
-<img src="./imgs/face2art/1.gif" width="320"> &nbsp; <img src="./imgs/face2art/2.gif" width="320"> &nbsp;\
-<img src="./imgs/face2art/3.gif" width="650"> &nbsp; 
+<img src="./imgs/face2art/2.gif" width="320"> &nbsp; <img src="./imgs/face2art/2.gif" width="320"> &nbsp;\
+<img src="./imgs/face2art/1.gif" width="650"> &nbsp; 
 
 
 
