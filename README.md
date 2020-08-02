@@ -81,3 +81,6 @@ Failures
 
 
 
+### Cat2Flower [AFHQ, OxfordFlowers]
+<img src="./imgs/cat2flower/1.gif" width="320"> &nbsp; <img src="./imgs/cat2flower/2.gif" width="320"> &nbsp;
+
