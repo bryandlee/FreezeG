@@ -10,11 +10,6 @@ Freezing generator for pseudo image translation
 
 
 
-### Face2Art [FFHQ, MetFaces]
-<img src="./imgs/face2art/1.gif" width="320"> &nbsp; <img src="./imgs/face2art/2.gif" width="320"> &nbsp;
-
-
-
 ### Face2Malnyun [FFHQ, Malnyun]
 <img src="./imgs/face2malnyun/1.png" width="320"> &nbsp; <img src="./imgs/face2malnyun/2.png" width="320"> &nbsp;\
 <img src="./imgs/face2malnyun/3.png" width="320"> &nbsp; <img src="./imgs/face2malnyun/4.png" width="320"> &nbsp;\
@@ -84,6 +79,11 @@ Failures
 <img src="./imgs/face2dog/fail_1.png" width="320"> &nbsp; <img src="./imgs/face2dog/fail_2.png" width="320"> &nbsp;\
 <img src="./imgs/face2dog/fail_3.png" width="320"> &nbsp; <img src="./imgs/face2dog/fail_4.png" width="320"> &nbsp;
 
+
+
+### Face2Art [FFHQ, MetFaces]
+<img src="./imgs/face2art/1.gif" width="320"> &nbsp; <img src="./imgs/face2art/2.gif" width="320"> &nbsp;\
+<img src="./imgs/face2art/3.gif" width="650"> &nbsp; 
 
 
 
