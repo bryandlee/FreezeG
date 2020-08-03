@@ -1,6 +1,8 @@
 # FreezeG
-Freezing generator for pseudo image translation
+Freezing generator for \*pseudo\* image translation
 
+
+Inspired by the training footage of [FreezeD](https://github.com/sangwoomo/FreezeD) trasfer learning, I have tested a simple idea of freezing the early layers of the generator in transfer learning settings, and it worked pretty well. Reusing the high-level layers of a pre-trained generator for image-to-image translation is not a novel idea [[1]](https://papers.nips.cc/paper/7480-one-shot-unsupervised-cross-domain-translation.pdf), [[2]](https://arxiv.org/pdf/2007.13332.pdf), and I guess it could be also applied to the transfer learning of GANs. This is a *pseudo* translation method because the input image should be projected to the learned latent space first, and then the projected vector is propagated again to generate the target image. Therefore, the performance is limited to the in-domain images of the original GAN. I used [StyleGAN2 implementation](https://github.com/rosinality/stylegan2-pytorch), and below are some of the results I've got. By also fixing the latent vector of the early layers and manipulating the ones that are fed into the last layers, the rendering style can be controlled separately. For the datasets with large geometric transformations such as face2simpsons, the connection between the original image and the resulting image becomes less intuitive. See cat2flower for an extreme case. 
 
 
 
