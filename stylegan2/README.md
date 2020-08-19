@@ -1,3 +1,5 @@
+### Original README from (https://github.com/rosinality/stylegan2-pytorch)
+
 # StyleGAN 2 in PyTorch
 
 Implementation of Analyzing and Improving the Image Quality of StyleGAN (https://arxiv.org/abs/1912.04958) in PyTorch
@@ -65,34 +67,11 @@ For example,
 
 Will generate 10 random samples, and samples generated from latents that moved along 19th eigenvector with size/degree +-5.
 
-![Sample of closed form factorization](factor_index-13_degree-5.0.png)
-
 ## Pretrained Checkpoints
 
 [Link](https://drive.google.com/open?id=1PQutd-JboOCOZqmd95XWxWrO8gGEvRcO)
 
 I have trained the 256px model on FFHQ 550k iterations. I got FID about 4.5. Maybe data preprocessing, resolution, training loop could made this difference, but currently I don't know the exact reason of FID differences.
-
-## Samples
-
-![Sample with truncation](doc/sample.png)
-
-Sample from FFHQ. At 110,000 iterations. (trained on 3.52M images)
-
-![MetFaces sample with non-leaking augmentations](doc/sample-metfaces.png)
-
-Sample from MetFaces with Non-leaking augmentations. At 150,000 iterations. (trained on 4.8M images)
-
-
-### Samples from converted weights
-
-![Sample from FFHQ](doc/stylegan2-ffhq-config-f.png)
-
-Sample from FFHQ (1024px)
-
-![Sample from LSUN Church](doc/stylegan2-church-config-f.png)
-
-Sample from LSUN Church (256px)
 
 ## License
 
