@@ -1,3 +1,11 @@
+## Interactive Demo
+
+> export GRADIO_SERVER_NAME=[host]
+
+> python gradio_app.py
+
+
+
 ### Original README from (https://github.com/rosinality/stylegan2-pytorch)
 
 # StyleGAN 2 in PyTorch
